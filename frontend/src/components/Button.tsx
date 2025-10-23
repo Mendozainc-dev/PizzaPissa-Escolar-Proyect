@@ -6,12 +6,13 @@ interface Button {
     id: string | undefined;
     className?: string;
     text: string;
+    onClick?: () => void
 }
 
-function Button({type, id, className, text}: Button) {
+function Button({type, id, className, text, onClick}: Button) {
   return (
     <div>
-        <button type={type} id={id} className={className}  >{text}</button>
+        <button type={type} id={id} className={className} onClick={onClick} >{text}</button>
     </div>
   )
 }
