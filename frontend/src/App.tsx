@@ -1,3 +1,9 @@
+//This app is created with React and Typescript for a pizza restaurant
+//The creator is Salvador Mendoza Muñoz alias Mendozainc-dev
+
+//Utilities
+
+
 //this is the image imports
 import pizza_peperoni from './assets/pizza_peperoni.jpg'
 import pizza_hawaiana from './assets/pizza_hawaiana.jpg'
@@ -13,12 +19,11 @@ import Images from "./components/Images"
 import Input from "./components/Input"
 import Label from "./components/Label"
 
-
 //This const is for the pizza cards
 const Pizzas_card: React.FC<{ src?: string }> = ({ src }) => (
   <div>
     <Images src={src} alt="pizzas de diferentes sabores"/>
-    <Button id="add_button" type="button" text="Agregar"/>
+    <Button className='' id="add_button" type="button" text="Agregar"/>
   </div>
 );
 
