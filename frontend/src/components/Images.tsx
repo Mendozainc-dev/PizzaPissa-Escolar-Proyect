@@ -1,14 +1,13 @@
 interface Images{
-    src: string;
+    src?: string;
     alt: string;
+    className?: string;
 }
 
-function Images({src, alt}: Images) {
+function Images({src, alt, className}: Images) {
   return (
     <div>
-        <template>
-            <img src={src} alt={alt} />
-        </template>
+      <img src={src} alt={alt} className={className} />
     </div>
   )
 }
