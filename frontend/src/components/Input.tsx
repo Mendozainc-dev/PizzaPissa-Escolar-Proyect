@@ -1,5 +1,8 @@
 import React from 'react'
 
+//Input component
+//this props are for the input component
+//contains type, id, className, placeholder, onClick and name
 interface Input {
     type: "number" | "search" | "button" | "checkbox" | "color" | "date" | "datetime-local" | "email" | "file" | "hidden" | "image" | "month" | "password" | "radio" | "range" | "reset" | "submit" | "tel" | "text" | "time" | "url" | "week";
     id: string;

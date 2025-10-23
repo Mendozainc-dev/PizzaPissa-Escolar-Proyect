@@ -1,3 +1,6 @@
+//Image component
+//this props are for the image component
+//contains src, alt and className
 interface Images{
     src?: string;
     alt: string;

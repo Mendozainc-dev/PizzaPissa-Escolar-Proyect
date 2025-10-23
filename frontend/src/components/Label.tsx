@@ -1,3 +1,6 @@
+//Label component
+//this props are for the label component
+//contains text and className
 interface Label {
     text: string;
     className?: string | undefined;
