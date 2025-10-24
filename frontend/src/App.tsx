@@ -1,8 +1,11 @@
+//This application is a pizza ordering website made with React and TypeScript
+//The creator is Salvador Mendoza Muñoz [Github | Mendozainc-dev]
+//The application allows users to select pizzas, fill out a form with their details, and submit an order.
+
 import './App.css'
 
 import { bannerpizzas } from './hooks/banner'
 import { usePizzaOrder } from './hooks/pizzasform'
-
 
 import pizza_peperoni from './assets/pizza_peperoni.jpg'
 import pizza_hawaiana from './assets/pizza_hawaiana.jpg'
